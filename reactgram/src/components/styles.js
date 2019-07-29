@@ -1,8 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
-import { red } from '@material-ui/core/colors';
 export const FeedStyles = makeStyles(theme => ({
     card: {
-      maxWidth: 400,
+      maxWidth: 500,
       maxHeight: 'auto',
       margin: '0 auto',
       marginTop: 10,
@@ -21,14 +20,17 @@ export const FeedStyles = makeStyles(theme => ({
     expandOpen: {
       transform: 'rotate(180deg)',
     },
-    avatar: {
-      backgroundColor: red[500],
-    },
     send:{
         transform: 'rotate(-45deg)'
     },
     hashtags:{
         color: '#7159c1',
         display: 'block',
+    },
+    comment: {
+      width : 380
+    },
+    btnComment:{
+      top : 15,
     }
   }));
